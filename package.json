@@ -1,0 +1,30 @@
+{
+  "name": "endtoendreactjsproject",
+  "version": "1.0.0",
+  "description": "This just a react application",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preeteshshan09/EndToEndReactJSProject.git"
+  },
+  "keywords": [],
+  "author": "preetesh m shanbhag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/preeteshshan09/EndToEndReactJSProject/issues"
+  },
+  "homepage": "https://github.com/preeteshshan09/EndToEndReactJSProject#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browsersList": [
+    "last 10 versions"
+  ]
+}
