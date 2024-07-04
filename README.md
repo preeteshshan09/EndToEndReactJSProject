@@ -1,5 +1,10 @@
 # EndToEndReactJSProject
 
+# Run The application
+
+- Dev : npm run start
+- Prod : npm run build
+
 # Parcel
 
 - Dev Build
