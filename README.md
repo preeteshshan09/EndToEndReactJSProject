@@ -38,3 +38,16 @@
 - - copyrights
 - - links
 - - contact information
+
+# React Hooks
+
+Normal JS utility functions
+
+- useState() - create state variables in React
+- useEffect()
+
+# React Reconiliation Algorithm (React Fiber)
+
+- Virtual SOM - Representation of actual DOM ( React Object)
+- Actual DOM (HTML Elements)
+- Read for more details https://github.com/acdlite/react-fiber-architecture
