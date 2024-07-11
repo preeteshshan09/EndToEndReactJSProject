@@ -51,3 +51,8 @@ Normal JS utility functions
 - Virtual SOM - Representation of actual DOM ( React Object)
 - Actual DOM (HTML Elements)
 - Read for more details https://github.com/acdlite/react-fiber-architecture
+
+# Architecture
+
+- Monolith
+- Micro service
