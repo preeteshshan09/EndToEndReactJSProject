@@ -56,3 +56,16 @@ Normal JS utility functions
 
 - Monolith
 - Micro service
+
+# Routing
+
+- react-router-dom
+  -- createbrowserRouter to create router
+  -- rouerProvider to bind our router to application in render
+  -- Outlet to render child paths in router dynamically
+  -- Link to perform navigation to a route
+
+# Two types f routing in web apps
+
+- client side routing
+- server side routing
