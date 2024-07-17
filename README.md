@@ -69,3 +69,7 @@ Normal JS utility functions
 
 - client side routing
 - server side routing
+
+# React lifecycle
+
+- https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
