@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
 import { MENU_API_URL } from "../utils/constants";
@@ -25,7 +24,6 @@ const RestaurantMenu = () => {
         c.card?.card?.["@type"] ===
         "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
     );
-  console.log("><<><><<>", categories);
   return (
     <div className="text-center">
       <h1 className="font-bold my-3 text-2xl">{name}</h1>
@@ -33,17 +31,8 @@ const RestaurantMenu = () => {
         {cuisines.join(", ")} - {costForTwoMessage}
       </p>
       {categories.map((c) => (
-        <RestaurentCategory data={c?.card?.card} />
+        <RestaurentCategory key={c.card?.card?.title} data={c?.card?.card} />
       ))}
-      {/* <h2>Menu</h2>
-      <ul>
-        {itemCards.map((item) => (
-          <li key={item.name}>
-            {item.card.info.name} - {" Rs."}
-            {item.card.info.price / 100 || item.card.info.defaultPrice / 100}
-          </li>
-        ))}
-      </ul> */}
     </div>
   );
 };
