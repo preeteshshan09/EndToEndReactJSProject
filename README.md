@@ -73,3 +73,13 @@ Normal JS utility functions
 # React lifecycle
 
 - https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
+# Redux Toolkit
+
+- Install @reduxjs/toolkit and react-redux
+- Build our store
+- Connect store to our app
+- Create cart slice
+- Dispatch Action
+- Reducer
+- Selector
